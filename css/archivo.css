@@ -3,6 +3,12 @@
     h2{border-bottom:solid rgb(58, 58, 58) 2px;}
 }
 
+@media handheld{
+    /*Para telefonos mobiles*/
+    h2{border-bottom:solid rgb(58, 58, 58) 2px;}
+}
+
+
 @media (min-width:600px) and (max-width:1200px) {
     /*Para tablets, etc.*/
     div#datos ul li{width:175px;}
